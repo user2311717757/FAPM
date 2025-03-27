@@ -22,7 +22,7 @@ preprocessing_num_workers: 16
 cache_dir: /mnt/data1/nianke/data/cache
 
 ### output
-output_dir: /mnt/data3/nianke_catastrophic_forgetting/LLaMA-Factory-main/saves/Llama3-lora/Llama3-winogrande-5e-6
+output_dir: */Llama3-winogrande-5e-6
 logging_steps: 10
 # save_steps: 3000
 save_strategy: epoch
