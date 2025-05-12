@@ -6,8 +6,7 @@ import random
 import torch
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-model_path = "/mnt/data1/nianke_catastrophic_forgetting/motivation/Qwen2_winogrande_sparsification_wise"
-# ?/mnt/data3/nianke_catastrophic_forgetting/LLaMA-Factory-main/saves/Qwen2-winogrande-5e-6
+model_path = your_model_path
 #/mnt/data1/model/meta-llama/Meta-Llama-3-8B-Instruct
 #/mnt/data1/model/qwen/Qwen2-7B-Instruct
 # print(data_type, model_path)
@@ -41,13 +40,8 @@ llm_engine.generation_config.top_k = 20
 # llm_engine.generation_config.seed = 4
 print(llm_engine.generation_config)
 
-#/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_glue/rte/rte_validation_qwen.json
-#/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_glue/mrpc/mrpc_validation_qwen.json
-#/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_winogrande/winogrande_1.1/winogrande_validation_qwen.json
-#/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_qa/qasc/qasc_validation_qwen.json
-#/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_qa/wikiqa/wikiqa_test_qwen.json
 
-with open("/mnt/data1/nianke_catastrophic_forgetting/LLaMA-Factory-main/data_winogrande/winogrande_1.1/winogrande_validation_qwen.json", "r", encoding="utf-8") as f:
+with open("/LLaMA-Factory-main/data_winogrande/winogrande_1.1/winogrande_validation_qwen.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 
