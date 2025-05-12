@@ -5,7 +5,7 @@ CUDA_DEVICES=6
 gpu_num=1
 
 # CUDA_DEVICES=0,1,2,3
-model_path=/mnt/data1/nianke_catastrophic_forgetting/motivation/Qwen2_squad_sparsification_0.30
+model_path=your_model_path
 model_type=qwen/Qwen2-7B-Instruct
 # /mnt/data1/model/qwen/Qwen2-7B-Instruct meta-llama/Meta-Llama-3-8B-Instruct
 # gpu_num=4
