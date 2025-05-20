@@ -16,7 +16,6 @@ weights = model.state_dict()
 weights_round1_lr1e_5 = model_round1_lr1e_5.state_dict()
 
 for key,value in weights.items():
-    pdb.set_trace()
     print(key)
     # if 'embed' in key or 'norm' in key:
     #     continue
