@@ -15,5 +15,6 @@ transformers == 4.47.0.dev0
 2. Train the model using Llama Factory. The configuration file used is as follows: llama3_full_sft_winogrande.yaml
 
 3. Execute the FAPM.py file.
+You need to input the base model path, the fine-tuned model path, and the path for saving the model.
 
-4. Use the scripts in the evaluation directory for assessment. 
+5. Use the scripts in the evaluation directory for assessment. 
